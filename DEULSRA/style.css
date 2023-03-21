@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Climate+Crisis&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(arkaplan2.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background: none;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li{
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: s;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    color: white;
+    text-align: center;
+}
+.content h1{
+    font-size: 70px;
+    color: white;
+}
+.content p{
+    font-size: 43px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    font-weight: 850;
+    font-size: 15px;
+}
+button:hover{
+    color: red;
+}
